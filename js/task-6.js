@@ -24,3 +24,12 @@ console.log(" ");
 let input;
 let total = 0;
 
+
+
+
+input = prompt(`enter number`);
+console.log(input);
+
+while (typeof (input) === Number) {
+    alert(input) = prompt(`enter number`);
+}
