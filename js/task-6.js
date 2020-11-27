@@ -25,11 +25,63 @@ let input;
 let total = 0;
 
 
+while (true) {
+
+if (input === null || input === NaN){
+        
+ break;
+
+ }  
+
+    input = prompt(`Enter number`);
+    total += Number(input);
+
+}  alert(total);
 
 
-input = prompt(`enter number`);
-console.log(input);
+// Task End
 
-while (typeof (input) === Number) {
-    alert(input) = prompt(`enter number`);
-}
+
+
+
+
+// Test code
+
+
+/*
+while (total >= 0) {
+    input = prompt(`Введите число`);
+   
+    total += input;
+}  if (input != Number || input === null){
+    
+}alert(`Общая сумма чисел равна ${total}`);
+
+*/
+/*
+input = Number(prompt(`Введите число`));
+console.log(typeof(input));
+*/
+
+
+/*
+do {
+    input = Number(prompt(`Введите число`));
+} while (input > 0 || input < 0);
+
+
+if (Number.isInteger(input)) {
+    input++;
+    total = input;
+    
+} console.log(total);*/
+
+
+/*
+do {
+    input = Number(prompt(`Введите число`));
+} while (input > 0 || input < 0) {
+    total += input;
+} console.log(input);
+
+*/
