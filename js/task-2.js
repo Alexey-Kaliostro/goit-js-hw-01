@@ -18,7 +18,7 @@ console.log(" ");
 const total = 100;
 const ordered = 10;
 
-let message = ordered <= total ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
+const message = ordered <= total ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
 console.log(message);
 
 //Task END

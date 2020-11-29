@@ -29,9 +29,10 @@ console.log(" ");
 
 // Task START
 
-let enterCountryName = prompt(`Пожалуйста укажите страну доставки`);
+const enterCountryName = prompt(`Пожалуйста укажите страну доставки`);
 let price;
-let country = enterCountryName[0].toUpperCase() + enterCountryName.slice(1).toLowerCase();
+let country = `enterCountryName[0].toUpperCase() + enterCountryName.slice(1).toLowerCase()`;
+
 
 switch (country) {
 
@@ -54,6 +55,8 @@ switch (country) {
     case "Ямайка":
         price = 120;
         break;
+    
+    
 
     default:
         alert("В вашей стране доставка не доступна");
@@ -63,5 +66,6 @@ switch (country) {
 if (price > 0) {
     alert(`Доставка в ${country} будет стоить ${price} кредитов`);
 } 
+
 
 // Task END

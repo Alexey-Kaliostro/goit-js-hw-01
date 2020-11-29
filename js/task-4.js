@@ -28,7 +28,7 @@ let credits = 23500;
 const pricePerDroid = 3000;
 
 
-let orderedQty = prompt(`Пожалуйста введите количество Дроидов для покупки`);
+const orderedQty = prompt(`Пожалуйста введите количество Дроидов для покупки`);
 let totalPrice = pricePerDroid * orderedQty;
 let accountBalance = credits - totalPrice;
 let message;

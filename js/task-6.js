@@ -24,6 +24,24 @@ console.log(" ");
 let input;
 let total = 0;
 
+do {
+  input = prompt(`Enter number`);
+    total += Number(input);
+} while (input > 0 || input < 0);
+
+alert(total);
+
+
+// Task End
+
+
+
+
+
+// Test code
+
+
+/*
 
 while (true) {
 
@@ -39,13 +57,7 @@ if (input === null || input === NaN){
 }  alert(total);
 
 
-// Task End
-
-
-
-
-
-// Test code
+*/
 
 
 /*
