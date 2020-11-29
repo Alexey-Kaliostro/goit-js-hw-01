@@ -29,7 +29,7 @@ do {
     total += Number(input);
 } while (input > 0 || input < 0);
 
-alert(total);
+alert(`Общая сумма чисел равна ${total}`);
 
 
 // Task End
