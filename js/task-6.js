@@ -26,10 +26,18 @@ let total = 0;
 
 do {
   input = prompt(`Enter number`);
-    total += Number(input);
+if (Number.isInteger(Number(input))){
+
+  total += Number(input);
+} else {
+  alert(`Было введено не число, попробуйте еще раз`);
+  
+  }
+  
 } while (input > 0 || input < 0);
 
-alert(`Общая сумма чисел равна ${total}`);
+
+alert(`Общая сумма чисел равна ${total}`)
 
 
 // Task End
