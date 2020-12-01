@@ -30,9 +30,16 @@ console.log(" ");
 // Task START
 
 const enterCountryName = prompt(`Пожалуйста укажите страну доставки`);
+let country;
 let price;
-let country = `enterCountryName[0].toUpperCase() + enterCountryName.slice(1).toLowerCase()`;
 
+if (enterCountryName === null) {
+
+  alert(`Операция отменена пользователем`);
+
+}else {
+
+ country = enterCountryName[0].toUpperCase() + enterCountryName.slice(1).toLowerCase();
 
 switch (country) {
 
@@ -60,7 +67,7 @@ switch (country) {
 
     default:
         alert("В вашей стране доставка не доступна");
-
+}
 }
 
 if (price > 0) {

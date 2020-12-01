@@ -20,7 +20,7 @@ console.log(" ");
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 
-let password = prompt(`PLease enter your password`);
+const password = prompt(`PLease enter your password`);
 
 if (password === null) {
     message = `Отменено пользователем!`;

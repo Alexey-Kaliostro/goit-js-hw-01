@@ -26,6 +26,11 @@ let total = 0;
 
 do {
   input = prompt(`Enter number`);
+
+
+
+
+
 if (Number.isInteger(Number(input))){
 
   total += Number(input);
@@ -34,7 +39,7 @@ if (Number.isInteger(Number(input))){
   
   }
   
-} while (input > 0 || input < 0);
+} while (input !== null);
 
 
 alert(`Общая сумма чисел равна ${total}`)
